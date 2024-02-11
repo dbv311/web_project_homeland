@@ -1,0 +1,8 @@
+.header {
+  padding-top: 34px;
+}
+
+.header__logo {
+  margin: auto;
+  display: block;
+}

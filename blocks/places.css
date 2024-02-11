@@ -1,0 +1,43 @@
+.places {
+  width: 987px;
+  display: grid;
+  margin: auto;
+}
+
+.place__title {
+  width: 460px;
+  font-family: Inter;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 76px;
+  letter-spacing: 0em;
+  text-align: left;
+  margin-bottom: 0;
+}
+
+.place__url-heading {
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0.12em;
+  text-align: left;
+}
+
+.place__artist {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+
+.place__paragraph {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 29px;
+  letter-spacing: 0em;
+  text-align: left;
+}
