@@ -1,52 +1,56 @@
 .intro {
   max-width: 1017px;
   display: grid;
-  grid-template-rows: repeat(3, auto);
-  grid-template-columns: 2fr 2fr 1fr 2fr;
+  margin: auto;
+}
+
+.intro__content {
+  display: grid;
+  grid-template-columns: 1.4fr 1.5fr 1.2fr;
+  grid-template-rows: auto;
+  grid-template-areas:
+    "title title title"
+    "quote quote . "
+    " . author ."
+    "text text . ";
   margin: auto;
 }
 
 .intro__title {
+  grid-area: title;
   font-family: Inter;
   font-size: 54px;
   font-weight: 900;
-  line-height: 58px;
+  line-height: 1.2;
   letter-spacing: 0em;
-  text-align: left;
-  grid-column: 1/5;
 }
 
-.intro__quote {
+.intro__text-quote {
+  grid-area: quote;
   font-family: Inter;
   font-size: 24px;
   font-weight: 400;
-  line-height: 34px;
+  line-height: 1.5;
   letter-spacing: 0em;
-  text-align: left;
-  grid-column: 1/4;
-  grid-row: 2/5;
   margin: auto;
 }
 
-.intro__author {
+.intro__text-author {
+  grid-area: author;
   font-family: Inter;
   font-size: 24px;
   font-weight: 400;
-  line-height: 34px;
+  line-height: 1.5;
   letter-spacing: 0em;
   text-align: right;
-  grid-column: 1/4;
-  grid-row: 4/6;
   margin: 0;
 }
 
-.intro__text {
+.intro__text-information {
+  grid-area: text;
   font-family: Inter;
   font-size: 16px;
   font-weight: 400;
-  line-height: 26px;
+  line-height: 1.5;
   letter-spacing: 0em;
-  text-align: left;
-  grid-column: 1/4;
-  margin: 32px 0 92px 0;
 }

@@ -1,0 +1,15 @@
+.photo {
+  margin: auto;
+}
+
+.photo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  grid-gap: 16px;
+  justify-content: center;
+}
+
+.photo-grid__image {
+  max-width: 288px;
+  width: 100%;
+}
