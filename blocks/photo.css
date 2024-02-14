@@ -7,9 +7,6 @@
   flex-wrap: wrap;
   grid-gap: 16px;
   justify-content: center;
-}
-
-.photo-grid__image {
-  max-width: 288px;
-  width: 100%;
+  max-width: 1184px;
+  margin: 92px 0;
 }
