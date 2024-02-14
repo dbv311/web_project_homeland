@@ -1,0 +1,32 @@
+.cover {
+  background-image: url("../images/__background.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  object-fit: cover;
+}
+
+.cover__title {
+  font-family: Inter;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 76px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.cover__subtitle {
+  font-family: Inter;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 280px;
+  margin: 32px 0;
+}
