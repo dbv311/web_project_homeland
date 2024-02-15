@@ -11,6 +11,10 @@
   width: 1184px;
 }
 
+/*.cover__background:hover {
+  background-color: #2a2c2f;
+} */
+
 .cover__information {
   position: relative;
   z-index: 2;
