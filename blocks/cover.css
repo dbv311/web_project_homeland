@@ -1,13 +1,24 @@
-.cover {
-  background-image: url("../images/__background.jpg");
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin: auto;
+.cover__content {
+  position: relative;
+  height: 740px;
+  margin-top: 44px;
+}
+
+.cover__background {
+  position: absolute;
+  z-index: 1;
+  opacity: 70%;
+  width: 1184px;
+}
+
+.cover__information {
+  position: relative;
+  z-index: 2;
   display: flex;
   flex-direction: column;
-  flex-wrap: wrap;
+  justify-content: center;
   align-items: center;
-  object-fit: cover;
+  height: 740px;
 }
 
 .cover__title {
@@ -17,7 +28,7 @@
   line-height: 76px;
   letter-spacing: 0em;
   text-align: center;
-  margin-bottom: 0;
+  margin: 0;
 }
 
 .cover__subtitle {
