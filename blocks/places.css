@@ -3,3 +3,10 @@
   margin: auto;
   padding-bottom: 92px;
 }
+
+@media screen and (max-width: 320px) {
+  .places {
+    width: 288px;
+    padding-bottom: 64px;
+  }
+}
