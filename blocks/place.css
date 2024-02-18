@@ -57,8 +57,7 @@
 }
 
 .place__image {
-  max-width: 460px;
-  max-height: 460px;
+  width: 100%;
 }
 
 .place__paragraphs {
@@ -92,6 +91,7 @@
     line-height: 1.2;
     letter-spacing: 0em;
     text-align: left;
+    margin: 0;
   }
 
   .place__title_large {
@@ -101,5 +101,53 @@
   .place__image {
     width: 100%;
     height: 100%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .place {
+    display: grid;
+    grid-template-columns: 340px 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "title website"
+      ". paragraph"
+      "button paragraph"
+      ". paragraph";
+    column-gap: 28px;
+    row-gap: 46px;
+    margin-bottom: 30px;
+  }
+
+  .place__title {
+    grid-area: title;
+    font-family: Inter;
+    font-size: 42px;
+    font-weight: 900;
+    line-height: 1.2;
+    letter-spacing: 0em;
+    text-align: left;
+  }
+
+  .place__title_large {
+    font-size: 42px;
+    width: 340px;
+  }
+
+  .place__website {
+    grid-area: website;
+  }
+
+  .place__paragraphs {
+    grid-area: paragraph;
+  }
+
+  .place__paragraph {
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0em;
+    text-align: left;
   }
 }

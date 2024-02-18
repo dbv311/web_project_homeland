@@ -83,3 +83,15 @@
     margin: 0 0 16px 0;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .cover {
+    position: relative;
+    width: 768px;
+    height: 746px;
+  }
+
+  .cover__information {
+    height: 746px;
+  }
+}

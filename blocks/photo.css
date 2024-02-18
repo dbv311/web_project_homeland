@@ -1,5 +1,6 @@
 .photo {
   margin: auto;
+  max-width: 1184px;
 }
 
 .photo-grid {
@@ -7,16 +8,29 @@
   flex-wrap: wrap;
   grid-gap: 16px;
   justify-content: center;
-  max-width: 1184px;
+
   margin: 92px 0;
 }
 
 @media screen and (max-width: 320px) {
   .photo {
-    width: 288px;
+    width: 320px;
+    display: flex;
   }
 
   .photo-grid {
     margin: 38px 0 62px 0;
+  }
+}
+
+@media screen and (min-width: 420px) and (max-width: 768px) {
+  .photo {
+    display: flex;
+    flex-wrap: wrap;
+    width: 768px;
+  }
+
+  .photo-grid__image {
+    width: calc((100% - 38px) / 2);
   }
 }
