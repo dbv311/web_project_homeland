@@ -4,6 +4,7 @@
 
 .lead__title {
   max-width: 793px;
+  width: 100%;
   justify-self: center;
   margin: 90px 0 32px 0;
   font-family: Inter;
@@ -16,6 +17,7 @@
 
 .lead__subtitle {
   max-width: 720px;
+  width: 100%;
   justify-self: center;
   margin: 0 0 64px 0;
   font-family: Inter;
@@ -30,7 +32,19 @@
   width: 100%;
 }
 
+@media screen and (max-width: 768px) {
+  .lead {
+    max-width: 720px;
+    width: 100%;
+  }
+}
+
 @media screen and (max-width: 320px) {
+  .lead {
+    max-width: 288px;
+    width: 100%;
+  }
+
   .lead__title {
     font-family: Inter;
     font-size: 40px;
