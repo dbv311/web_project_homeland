@@ -7,23 +7,19 @@
   display: flex;
   flex-wrap: wrap;
   grid-gap: 16px;
-
+  justify-content: center;
   margin: 92px 0;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1279px) {
   .photo {
     display: flex;
     flex-wrap: wrap;
     max-width: 720px;
   }
-
-  .photo-grid__image {
-    width: calc((100% - 38px) / 2);
-  }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .photo {
     max-width: 288px;
     display: flex;

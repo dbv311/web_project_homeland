@@ -5,7 +5,8 @@
   grid-template-areas:
     "title website"
     ". paragraph"
-    "button paragraph";
+    "button paragraph"
+    ". paragraph";
   column-gap: 40px;
   row-gap: 48px;
   margin-bottom: 80px;
@@ -75,7 +76,7 @@
   grid-column: 2/4;
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1279px) {
   .place {
     display: grid;
     grid-template-columns: 340px 1fr;
@@ -123,7 +124,7 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 767px) {
   .place {
     width: 288px;
     display: flex;
