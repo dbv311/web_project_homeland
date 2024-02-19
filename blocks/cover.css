@@ -51,7 +51,15 @@
   letter-spacing: 0em;
   text-align: center;
   width: 280px;
-  margin: 32px 0;
+  margin: 32px 0 0 0;
+}
+
+.cover__subtitle_address {
+  margin: 0;
+}
+
+.cover__subtitle_place {
+  margin: 0 0 32px 0;
 }
 
 @media screen and (max-width: 1279px) {
@@ -90,6 +98,15 @@
     line-height: 1.2;
     letter-spacing: 0em;
     text-align: center;
+    margin: 16px 0 0 0;
+    padding: 0;
+  }
+
+  .cover__subtitle_address {
+    margin: 0;
+  }
+
+  .cover__subtitle_place {
     margin: 0 0 16px 0;
   }
 }
