@@ -34,7 +34,7 @@
 }
 
 .cover__title {
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-size: 72px;
   font-weight: 900;
   line-height: 76px;
@@ -44,7 +44,7 @@
 }
 
 .cover__subtitle {
-  font-family: Inter;
+  font-family: Inter, Arial, sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
@@ -74,8 +74,7 @@
   .cover {
     position: relative;
     max-height: 254px;
-    max-width: 288px;
-    width: 100%;
+    width: 321.26px;
   }
 
   .cover__information {
@@ -89,10 +88,11 @@
     line-height: 1.5;
     letter-spacing: 0em;
     text-align: center;
+    margin-top: 46px;
   }
 
   .cover__subtitle {
-    font-family: Inter;
+    font-family: Inter, Arial, sans-serif;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.2;
@@ -107,6 +107,6 @@
   }
 
   .cover__subtitle_place {
-    margin: 0 0 16px 0;
+    margin: 0;
   }
 }
